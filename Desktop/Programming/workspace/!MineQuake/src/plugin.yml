@@ -1,0 +1,25 @@
+name: MineQuake
+version: 0.1b
+main: quake.thekian.main.QuakeMain
+author: TheKian
+description: Quake III ported into Minecraft.
+
+commands:
+    givewep:
+        usage: /<command>
+        description: Provides OP with weapon for testing.
+    game-enable:
+        usage: /<command>
+        description: Enables the game.
+    game-disable:
+        usage: /<command>
+        description: Disables the game.
+    quake-start:
+        usage: /<command>
+        description: Starts the game.
+    particle-test:
+        usage: /<command>
+        description: Particle test.
+    quake-end:
+        usage: /<command>
+        description: Ends game.

@@ -1,0 +1,5 @@
+name: NMSLibrary
+version: 0.1
+main: thekian.nms.main.Main
+author: TheKian
+description: A particularly useful reflected custom library for NMS interactions.

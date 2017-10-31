@@ -1,0 +1,31 @@
+name: RPGCORE
+version: 0.4a
+main: me.thekian.rpg.RPGCore
+author: TheKian
+description: The RPG core mechanics plugin.
+
+commands:
+    givexp:
+        usage: /<command> <player> <amount>
+        description: Gives a player XP.
+    givecredits:
+        usage: /<command> <player> <amount>
+        description: Gives a player credits.
+    giveitem:
+        usage: /<command> <player> <id>
+        description: Gives a player a particular item.
+    help:
+        usage: /<command>
+        description: List of usable commands.
+    spawnMob:
+        usage: /<command> <id>
+        description: Spawns a mob.
+    spawnNPC:
+        usage: /<command> <id>
+        description: Spawns an NPC.
+    killall:
+        usage: /<command>
+        description: Clears all living entities.
+    test:
+        usage: /<command>
+        description: Tests current MMO testing stuffness.

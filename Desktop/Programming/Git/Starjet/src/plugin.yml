@@ -1,0 +1,22 @@
+name: Starjet
+version: 0.1a
+main: kian.starjet.core.StarjetMain
+author: TheKian
+description: Minecraft space battle minigame.
+
+commands:
+    debug-test:
+        usage: /<command>
+        description: Test the ships.
+    debug-ship:
+        usage: /<command>
+        description: Select ship to export.
+    debug-export:
+        usage: /<command> <name>
+        description: Exports the selected ship to a schematic file.
+    debug-active:
+        usage: /<command>
+        description: Activates the game.
+    debug-start:
+        usage: /<command>
+        description: Starts the countdown at 10 seconds.

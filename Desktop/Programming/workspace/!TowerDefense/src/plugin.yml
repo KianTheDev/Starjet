@@ -1,0 +1,26 @@
+name: TowerDefense
+version: 1.0a
+main: kian.towers.core.TowersMain
+author: TheKian
+description: Minecraft tower defense.
+depend: [NMSLibrary]
+
+commands:
+    stuck:
+        usage: /<command>
+        description: If a player gets stuck in a tower, this will teleport him back to the gate.
+    debug-tower:
+        usage: /<command>
+        description: Begins tower definition process.
+    debug-export:
+        usage: /<command> <file name>
+        description: Exports current tower schematic.
+    debug-build:
+        usage: /<command> <tower name>
+        description: Builds the given tower on top of the player. For testing buildings.
+    debug-active:
+        usage: /<command>
+        description: Activates Tower Defense.
+    debug-start:
+        usage: /<command>
+        description: Immediately starts the countdown at 10 seconds.
